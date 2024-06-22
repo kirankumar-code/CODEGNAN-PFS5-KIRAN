@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:brown;
+    padding: 20px;
+}
+
+#form-builder {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+    .field {
+        background-color:burlywood;
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      .field:hover {
+        background-color: #f0f0f0;
+      }
+      .toolbox {
+        background-color:#fff;
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+      }
+      .preview {
+        padding: 20px;
+        border: 1px solid #ccc;
+        background-color:#fff;
+        min-height: 200px;
+      }
+.km{
+    border: solid;
+    border-radius: 30px;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: purple;
+    color: #fff;
+    border: solid;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.mk{
+    border: solid;
+    border-radius: 30px;
+    background-color: orange;
+    text-align: center;
+    padding: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#form-fields {
+    margin-bottom: 20px;
+}
+
+#form-preview {
+    margin-top: 20px;
+    padding: 20px;
+    background-color:aliceblue;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#form-preview form {
+    margin-top: 10px;
+}
+
+.form-field {
+    margin-bottom: 10px;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-field input,
+.form-field textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid ;
+    border-radius: 4px;
+}
+
+.form-field textarea {
+    resize: vertical;
+}
+
+.form-field input[type="checkbox"] {
+    width: auto;
+}
+
+.form-field button {
+    margin-top: 10px;
+}
+.kh{
+    border: solid;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: cadetblue;
+    margin-right: 70%;
+}
+.rk{
+    border: solid;
+    text-align: center;
+    background-color: orange;
+    padding: 25px;
+    border-radius: 40px;
+}
+.kk{
+    left: 100px;
+    text-align: center;
+    border: dashed;
+    border-radius: 40px;
+    background-color: darkkhaki;
+    padding: 10px;
+    font-size: 30px;
+}
+@media (max-width: 600px){
+    body{
+        background-color: chartreuse;
+    }
+    #form-builder{
+        padding: 10px;
+    }
+    button{
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    .form-field input,
+    .form-field textarea{
+        padding: 6px;
+        font-size: 14px;
+    }
+}

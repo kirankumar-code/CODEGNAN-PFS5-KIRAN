@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CUSTOM FORM BUILDER</title>
+<link rel="stylesheet" href="custom.css">
+<script src="custom.js"></script>
+</head>
+<body>
+<div id="form-builder">
+    <h1 class="km">CUSTOM FORM BUILDER</h1>
+    <div id="form-fields">
+    </div>
+    <button id="add-text-field" required>Add Text Field</button>
+    <button id="add-checkbox" required>Add Checkbox</button>
+    <button id="add-submit-button" required>Add Submit Button</button>
+    <button id="generate-form" required>Generate Form</button>
+    <div id="form-preview">
+        <h2 class="mk">FORM PREVIEW</h2>
+        <form id="generated-form">
+        </form>
+    </div>
+    <div id="form-builder">
+        <button onclick="exportFormData()">Export Data</button>
+        <input type="file" id="importData" accept=".csv,.json" onchange="importFormData(event)">
+      </div>
+
+      <div id="form-builder">
+        <div class="toolbox">
+          <h3 class="kh">Field Types</h3>
+          <div>
+            <div draggable="true" class="field" data-type="text">Text Field</div>
+            <div draggable="true" class="field" data-type="textarea">Textarea</div>
+            <div draggable="true" class="field" data-type="checkbox">Checkbox</div>
+            <!-- Add more field types as needed -->
+          </div>
+        </div>
+        <div class="preview">
+          Drag and drop fields here to build your form.
+        </div>
+      </div>  
+      <div class="kk">
+        <a href="custom1.html">SUBMIT</a>
+    </div>
+</div>
+</body>
+</html>
